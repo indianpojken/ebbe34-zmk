@@ -1,0 +1,6 @@
+if SHIELD_EBBE34
+
+config ZMK_KEYBOARD_NAME
+    default "EBBE34"
+
+endif

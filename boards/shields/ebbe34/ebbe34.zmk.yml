@@ -1,0 +1,9 @@
+file_format: "1"
+id: ebbe34
+name: EBBE34
+type: shield
+url: https://github.com/indianpojken/ebbe34
+requires: [pro_micro]
+features:
+  - keys
+  - display
