@@ -1,0 +1,22 @@
+compatible = "zmk,combos";
+
+#define COMBO(NAME, BINDINGS, KEYPOS, LAYERS) \
+  combo_##NAME { \
+    bindings = <BINDINGS>; \
+    key-positions = <KEYPOS>; \
+    layers = <LAYERS>; \
+  };
+
+COMBO(arng_combo, &kp SE_ARNG, 6   7, BAS)
+COMBO(adia_combo, &kp SE_ADIA, 16 17, BAS)
+COMBO(odia_combo, &kp SE_ODIA, 26 27, BAS)
+
+COMBO(esc_combo,  &kp ESC,   1  2, BAS)
+COMBO(bspc_combo, &kp BSPC, 21 22, BAS)
+COMBO(tab_combo,  &kp TAB,   7  8, BAS)
+COMBO(ent_combo,  &kp RET,  27 28, BAS)
+
+COMBO(grv_combo, &kp SE_GRV,   3 4, SYM)
+COMBO(acut_combo, &kp SE_ACUT, 5 6, SYM)
+
+COMBO(settings_combo, &sl SET, 30 31 32 33, BAS)
